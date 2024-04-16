@@ -2,6 +2,7 @@
 # It is not intended for manual editing.
 version = 3
 
+
 [[package]]
 name = "aead"
 version = "0.4.3"
@@ -10,6 +11,7 @@ checksum = "0b613b8e1e3cf911a086f53f03bf286f52fd7a7258e4fa606f0ef220d39d8877"
 dependencies = [
  "generic-array",
 ]
+
 
 [[package]]
 name = "aes"
@@ -22,6 +24,7 @@ dependencies = [
  "cpufeatures",
  "opaque-debug",
 ]
+
 
 [[package]]
 name = "aes-gcm-siv"
@@ -37,6 +40,7 @@ dependencies = [
  "subtle",
  "zeroize",
 ]
+
 
 [[package]]
 name = "ahash"
